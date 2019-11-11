@@ -32,12 +32,12 @@
 
 
 /*Global Styling*/
-@import url('https://fonts.googleapis.com/css?family=Heebo:100|Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn|Heebo:100&display=swap');
 
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Vollkorn', serif;
     font-size: 1.5rem;
     color: #dae3e0;
     overflow-x: hidden !important;
@@ -67,6 +67,7 @@ input:focus{
 
 h1,h2,h3,h4,h5,h6 {
     margin: 0;
+		font-family: 'Vollkorn', serif;
 }
 h1 {
     font-size: 3.75rem;
@@ -109,17 +110,15 @@ p, .heading-title > span, .process-wrapp li > .pro-step,
 .price-table .ammount .dur, .pagination li > a, .counters .count_nums,
 .price-table .ammount h2, .price-table ul li, .webcats li a > span,
 .getin_form .form-control{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Heebo', sans-serif;
 }
 
 /*fontAwesome*/
 .zeus.tparrows.tp-rightarrow::before,
 .zeus.tparrows.tp-leftarrow::before,
 .price-table ul li > span::before,
-.testimonial-quote h3::before,
-.testimonial-quote h3::after,
 blockquote.blockquote::before{
-	font-family:'Heebo';
+	font-family: 'Vollkorn';
 }
 
 /* Helper Classes & Shorcodes */
@@ -311,12 +310,13 @@ section{
 .heading-title > span{
     font-size: 1.5rem;
     display: block;
+		font-family: 'Heebo', sans-serif;;
 }
 .whitecolor.heading-title > span{
     color: #dae3e0;
 }
 .heading-title h2{
-   font-weight: 300;
+  font-weight: 300;
 }
 
 
@@ -3282,7 +3282,7 @@ iframe  {
 }
 #partners-slider .logo-item {
 	width: 160px;
-    height: 60px;
+    height: 96px;
 	overflow: hidden;
 }
 #partners-slider .logo-item, #partners-slider  .logo-item > img{
@@ -3680,7 +3680,7 @@ button {
 }
 .form-check input[type="checkbox"]:checked + label::before {
 	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
+	font-family: normal normal normal 14px/1 FontAwesome;
 	text-rendering: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
